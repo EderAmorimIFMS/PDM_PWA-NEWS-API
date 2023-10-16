@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="exemplo de fallback">
+    <title>Noticias PWA</title>
+    <link rel="apple-touch-icon" href="images/pwa-icon-256.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!--viewport para designers responsivos (mobo), content é a configuração-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="white" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="favicon.ico">
+    <script type="module" src="js/main.js"></script>
+
+</head>
+
+<body class="fullscreen">
+  <div class="container">
+    <header>
+      <h1>Noticias PWA - API</h1>
+    </header>
+
+    <div class="busca">
+        <input type="text" name="buscar" id="buscar" class="input_text" placeholder="BUSCAR NOTICIAS">
+        <button id="btnBuscar">BUSCAR</button>
+    </div>
+  </div>
+
+  <main></main>
+
+</body>
+</html>
